@@ -1,0 +1,27 @@
+  .main-nav {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 18px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: right;
+        margin-right: 30px;
+
+    li {
+        display: inline-block;
+        
+        a {
+            color: #754b23;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+                &:hover {
+                    background-color: #f6b53e;
+                }
+        }
+    }
+}
