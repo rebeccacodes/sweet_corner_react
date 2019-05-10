@@ -1,0 +1,41 @@
+.footer {
+    background-color: #06b4af;
+    font-size: 18px;
+    height: 80px;
+    color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+
+
+    .footer-left, .footer-center, .footer-right {
+        display: inline-block;
+        
+    }
+
+    .footer-left {
+        width: 25%;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .footer-center {
+        width: 40%;
+        text-align: center;
+    }
+
+    .footer-right {
+        width: 25%;
+        text-align: right;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+      
+       .phone {
+           padding-right: 5px;
+       }
+       
+    }
+}
